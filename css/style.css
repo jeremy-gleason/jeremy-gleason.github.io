@@ -1,0 +1,116 @@
+/* My first stylesheet */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D9BBB0;
+    background-image: url(/images/Jeremy_small.gif);
+    color: #143340;
+    margin: 1rem 3%;
+}
+nav {
+    margin-top: 0;
+}
+nav ul {
+    list-style-type: none;
+    border-top: 3px solid #143340;
+    border-bottom: 3px solid #143340;
+    padding: 0;
+    text-align: center;
+    background-color: #2E5159;
+    margin-top: 0;
+}
+nav li {
+    border: 0px solid red;
+    display: inline-block;
+    background-color: #143340;
+    margin: 0 0.25rem;
+}
+nav a {
+    display: block;
+    padding: 0.75rem 1rem;
+}
+nav ul a:hover {
+    text-decoration: none;
+    background-color: #6D9BA6;
+    color: #143340;
+}
+main {
+    margin: 0 2%;
+}
+h1 {
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+}
+h1, h2 {
+    clear: both;
+    color: #2E5159;
+}
+h1, footer p {
+    text-align: center;
+}
+.italic {
+    font-style: italic;
+}
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    border: 2px rgb(75, 75, 75) solid;
+    border-left: 5px rgb(75, 75, 75) solid;
+    background-color: #6D9BA6;
+    padding: 1rem;
+}
+blockquote p {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+cite {
+    font-size: 1.5rem;
+}
+.bigbold {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.biglines {
+    line-height: 1.7rem;
+    color: #4a81f7;
+    background-color: rgb(240, 248, 255);
+}
+
+ul a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #D9BBB0;
+}
+ul a:visited {
+    color: #D9BBB0;
+    font-weight: normal;
+}
+ul a:hover {
+    color: orange;
+    text-decoration: underline;
+    background-color: black;
+}
+a.harvard:link {
+    color: maroon;
+}
+a:link {
+    color: #2E5159;
+}
+a:visited {
+    color: #2E5159;
+}
+a:hover {
+    text-decoration: none;
+}
+.floatleft {
+    float: left;
+    border: 5px solid green;
+    margin: 0 1rem 1rem 0;
+}
+footer {
+    background-color: #2E5159;
+    color: #D9BBB0;
+    padding: 0.5rem;
+}
