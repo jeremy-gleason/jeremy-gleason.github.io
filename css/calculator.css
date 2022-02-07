@@ -1,0 +1,80 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+    width: 400px;
+}
+.screen {
+    display: block;
+    background-color: #000000;
+    color: white;
+    text-align: right;
+    padding: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+}
+.row {
+    background-color: blue;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.button {
+    flex-basis: 25%;
+    background-color: #d8d9db;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+.button:hover {
+    background-color: #ebebeb;
+}
+.button:active {
+    background-color: #bbbcbe;
+}
+.function {
+    background-color: #df974c;
+    color: white;
+}
+.function:hover {
+    background-color: #dfb07e;
+}
+.function:active {
+    background-color: #dd8d37;
+}
+.double-wide {
+    flex-basis: 50%;
+}
+.triple-wide {
+    flex-basis: 75%;
+}
+p {
+    margin: 0;
+    /*border: 1px solid red;*/
+}
+/* black: #000000
+white: #ffffff
+light grey: #d8d9db
+buttons on hover: #ebebeb
+button active state: #bbbcbe
+function buttons: #df974c
+function buttons on hover: #dfb07e
+function button active state: #dd8d37 */
+
+/*
+Create a wrapper with a width of 400px to set up the calculator.
+Determine how many rows and columns we need.
+Identify elements that occupy more than one column.
+Determine the HTML tags required to code rows and cells.
+Code a single row of 4 elements to start with and see if you can get that working.
+Now add the other rows of 4 elements.
+Finally, add the rows where there are fewer than 4 elements. What do you need to adjust to get these to work?
+Once your layout is mostly working, add the colors and make it pretty.*/
