@@ -114,3 +114,18 @@ footer {
     color: #D9BBB0;
     padding: 0.5rem;
 }
+.toro {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    cursor: grab;
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+}
+
+.swiper {
+    z-index: 0;
+    /*width: 100%;
+    height: 300px;*/
+}

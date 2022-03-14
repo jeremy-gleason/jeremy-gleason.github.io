@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -27,8 +28,7 @@
         <!--<img src="images/Jeremy_small.gif" alt="Jeremy's headshot" class="floatleft">-->
 
         <p>I am an aspiring software developer who is pursuing a master's degree from the 
-            University of Pennsylvania. I live in Brooklyn, New York, down the block from Prospect Park, with my cat Toro 🐱
-            (Click Toro to grab and pull him across the screen.)</p>
+            University of Pennsylvania. I live in Brooklyn, New York, down the block from Prospect Park, with my cat Toro: <span class="toro">🐱</span> (Click Toro to grab and pull him across the screen.)</p>
     
         <p>When I'm not studying computer science, I enjoy honing my web development skills. I think understanding 
             web development is very useful and important, and many serious software engineers focus on it in their
@@ -46,14 +46,43 @@
         
         <p>My favorite quotes are:</p>
     
-        <blockquote>
-            <p>Placeholder text for quote</p>
-            <cite>Citation placeholder</cite>
-        </blockquote>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <blockquote>
+                        <p>Placeholder text: Quote #1</p>
+                        <cite>Citation placeholder #1</cite>
+                    </blockquote>
+                </div>
+                <div class="swiper-slide">
+                    <blockquote>
+                        <p>Placeholder text: Quote #2</p>
+                        <cite>Citation placeholder #2</cite>
+                    </blockquote>
+                </div>
+                <div class="swiper-slide">
+                    <blockquote>
+                        <p>Placeholder text: Quote #3</p>
+                        <cite>Citation placeholder #3</cite>
+                    </blockquote>
+                </div>
+                <div class="swiper-slide">
+                    <blockquote>
+                        <p>Placeholder text: Quote #4</p>
+                        <cite>Citation placeholder #4</cite>
+                    </blockquote>
+                </div>
+            </div>
+            <button class="swiper-button-prev"></button>
+            <button class="swiper-button-next"></button>
+        </div>
     </main>
     
     <footer>
         <p>Copyright 2021 Jeremy Gleason</p>
     </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/popmotion@8.5.0/dist/popmotion.global.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>
