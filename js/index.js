@@ -9,7 +9,7 @@ new Swiper('.swiper', {
 
 const { styler, spring, listen, pointer, value } = window.popmotion;
 
-const ball = document.querySelector('.toro');
+const ball = document.querySelector('.ggomi');
 const divStyler = styler(ball);
 const ballXY = value({ x: 0, y: 0 }, divStyler.set);
 
