@@ -1,0 +1,64 @@
+body {
+    background-color: #c0c86d;
+    cursor: url("../img/cursor.png"), default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.bg {
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.worm {
+    width: 1660px;
+}
+
+.worm-container {
+    width: 5%;
+    overflow: hidden;
+    transition: width 0.5s ease-in-out;
+}
+
+.worm-box {
+    width: 1660px;
+}
+
+.hole {
+    /* display: inline-block; */
+    width: 267px;
+    height: 267px;
+    background-color: black;
+    border-radius: 50%;
+    /* margin: 1rem 4rem; */
+}
+
+.hole-container {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mole {
+    position: relative;
+    right: 30px;
+}
+
+.hungry {
+    cursor: url("../img/cursor-worm.png"), default;
+}
+
+.hide {
+    display: none;
+}
